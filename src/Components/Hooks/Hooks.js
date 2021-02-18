@@ -1,5 +1,9 @@
 import React from 'react'
 import '../style.css'
+import Counter from './Counter'
+import FunctionalComponent from './FunctionalComponent'
+import Movies from './Movies'
+import Pokemon from './Pokemon'
 
 const Hooks = props => {
   return (
@@ -14,6 +18,10 @@ const Hooks = props => {
           Docs
         </a>
       </h1>
+      {/* <FunctionalComponent /> */}
+      {/* <Counter /> */}
+      {/* <Movies /> */}
+      {/* <Pokemon /> */}
     </section>
   )
 }
